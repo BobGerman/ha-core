@@ -1,5 +1,7 @@
-/config
+# Ignore local config except include my code
+/config/*
 config2/*
+!/config/www
 
 tests/testing_config/deps
 tests/testing_config/home-assistant.log*
